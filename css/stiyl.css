@@ -1,0 +1,144 @@
+/* GLOBAL STIL */
+
+html{
+  box-sizing:border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing:inherit;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+  color: #222;
+
+  padding: 0px;
+  margin: 0px;
+}
+img{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  width: 100%;
+  max-width: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:0px auto;
+}
+.main-content{
+  flex-grow: 1;
+
+}
+.main-content-wrop{
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  margin: auto;
+
+
+
+}
+.main-content-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 640px;
+  height: 100vh;
+  background-image: url(../img/Rectangle\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position:center,bottom;
+  background-size:cover ;
+  margin: 0px;
+  padding: 0px;
+}
+.main-content-left-box{
+  width: 285px;
+  height: 58px;
+
+}
+.content-left-box-headig{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #fff;
+
+}
+.content-left-button{
+  display:flex;
+  text-decoration: none;
+  width: 164px;
+  height: 48px;
+  padding: 12px 24px;
+  background:#1E90FF;
+}
+.content-left-button-text{
+  display: inline-block;
+  font-family:sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2;
+  color:#fff
+}
+.content-left-button::before{
+  content:"";
+  width: 20px;
+  height: 20px;
+  background-image:url(../img/Vector.png);
+  margin-right: 12px;
+}
+
+/* MAN CONTENT RIGHT */
+
+.main-content-right{
+  width: 100%;
+  max-width: 640px;
+  background:#fff;
+}
+.content-right-box{
+  width: 495px;
+  height: 100%;
+  margin: auto;
+}
+.content-right-headeg{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2;
+  color:#222;
+  padding: 54px 0px 24px 0px;
+  border-bottom: 1.5px solid #999999;
+}
+.content-right-list{
+  display: flex;
+}
+
+/* .content-right-list-text{
+  display: flex;
+} */
+
+
+/* RETINA RESPOSIV */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+}
